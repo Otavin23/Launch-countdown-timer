@@ -1,8 +1,8 @@
 import { createGlobalStyle } from "styled-components";
+import "../assets/"
 
 
-
-export const CreateGlobalStyle = createGlobalStyle`
+export const CreateGlobalStyles = createGlobalStyle`
 
     *{
         padding: 0;
@@ -10,6 +10,7 @@ export const CreateGlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        
+        background: hsl(235, 16%, 14%);
+        background: url("../../assets")
     }
 `
